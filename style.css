@@ -1,0 +1,123 @@
+* ,
+html{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-image: url(background.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+
+.container-font{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.font{
+    color: white;
+    padding: 50px;
+    font-family: helvetica;
+}
+
+.container-button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.button{
+    padding:8px 10px;
+    border: none;
+    font-size:12px;
+    background-color: red;
+    color: white;
+    cursor: pointer;
+    font-family: helvetica;
+}
+
+.button:hover{
+    box-shadow: 0 0 15px 5px red;
+}
+
+.h1{
+    font-family: helvetica;
+    color: white;
+}
+
+.pembagian{
+    background-color: black;
+}
+/* halaman */
+.home{
+    width: 28px;
+    height: 28px;
+}
+
+.ul{
+    display: flex;
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.li{
+    color:white;
+    text-decoration: none;
+    padding: 10px;
+    color:white;
+    border-radius: 3px ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.container-halaman{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.button1{
+    border: none;
+    padding: 5px;
+    background-color: blue;
+    border-radius: 3px;
+    cursor:pointer;
+    color: white;
+}
+
+
+.h3{
+    color: white;
+    font-family: helvetica;
+}
+
+.result{
+    color: yellow;
+    font-size: 20px;
+    font-family: helvetica;
+}
+/* pembagian */
+.container---{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.font123{
+    color: white;
+    font-family: helvetica;
+}
+
+.addres{
+    font-family: helvetica;
+    color: white;
+}
